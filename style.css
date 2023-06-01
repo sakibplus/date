@@ -1,0 +1,106 @@
+#app {
+  padding-top: 50px;
+  min-height: 500px;
+  height: 100vh;
+  width: 100%;
+  background: #040d42;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#app .leyout {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 450px;
+  height: 320px;
+  background: #FFEB3B;
+  padding: 40px 20px;
+  -webkit-box-shadow: 3px 2px 2px black;
+          box-shadow: 3px 2px 2px black;
+}
+
+#app .leyout .box-title {
+  position: absolute;
+  top: 0;
+  background: black;
+  font-size: 18px;
+  line-height: 40px;
+  color: white;
+  padding: 0 10px;
+  border-radius: 20px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border: 2px solid #FFEB3B;
+}
+
+#app .leyout .inputbox {
+  width: 100%;
+}
+
+#app .leyout .inputbox input {
+  text-align: center;
+  font-size: 18px;
+  height: 40px;
+  padding: 0 10px;
+  outline: none;
+  width: calc(100% - 20px);
+  border: none;
+  border: 2px solid #0c0121;
+  border-radius: 10px;
+}
+
+#app .leyout .inputbox input:focus {
+  border: 2px solid #4c2690;
+}
+
+#app .leyout span {
+  padding: 7px;
+}
+
+#app .leyout .dateeng {
+  width: 100%;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#app .leyout .datebng {
+  font-size: 22px;
+}
+
+#app .leyout .datebng div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}

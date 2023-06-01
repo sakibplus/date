@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - English to Bangla Date Converter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"><link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app">
+  <div class="leyout">
+  <div class="box-title">
+    <span>
+      English to Bangla Date Converter
+    </span>
+  </div>
+  <div class="inputbox">
+    <input placeholder="Select your Date" type="date" id="indate">
+  </div>
+  <div class="dateeng">
+    <span d-text="dateEn.day"></span>
+    <span d-text="dateEn.date"></span>
+    <span d-text="dateEn.month"></span>
+     <span d-text="dateEn.year">
+
+    </span>
+  </div>
+  <div class="datebng">
+    <div class="">
+      <span d-text="dateBd.day"></span>
+       <span d-text="dateBd.date"></span>
+        <span  d-text="dateBd.month"></span>
+      <span d-text="dateBd.year"></espan>
+    </div>
+ <div>
+   <span  d-text="dateBd.session">
+    
+   </span>
+ </div>
+  </div>
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/flatpickr'></script><script  src="./script.js"></script>
+
+</body>
+</html>
